@@ -1,0 +1,314 @@
+$date
+	Wed Dec 10 11:46:26 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module fsm_charger_tb $end
+$var wire 1 ! servo_force_close $end
+$var wire 1 " pid_enable $end
+$var wire 1 # L_off $end
+$var wire 1 $ L_TRACK $end
+$var wire 1 % L_SEARCH $end
+$var reg 1 & bat_charged $end
+$var reg 1 ' clk $end
+$var reg 1 ( rpm_in_range $end
+$var reg 1 ) soft_reset $end
+$scope module uut $end
+$var wire 1 & bat_charged $end
+$var wire 1 ' clk $end
+$var wire 1 ( rpm_in_range $end
+$var wire 1 ) soft_reset $end
+$var wire 1 * system_reset $end
+$var parameter 2 + S_OFF $end
+$var parameter 2 , S_SEARCH $end
+$var parameter 2 - S_TRACK $end
+$var reg 1 % L_SEARCH $end
+$var reg 1 $ L_TRACK $end
+$var reg 1 # L_off $end
+$var reg 2 . current_state [1:0] $end
+$var reg 1 / internal_reset_active $end
+$var reg 2 0 next_state [1:0] $end
+$var reg 1 " pid_enable $end
+$var reg 4 1 reset_count [3:0] $end
+$var reg 1 ! servo_force_close $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 -
+b1 ,
+b0 +
+$end
+#0
+$dumpvars
+b0 1
+b1 0
+1/
+b0 .
+1*
+0)
+0(
+0'
+0&
+0%
+0$
+1#
+0"
+1!
+$end
+#20000
+b1 1
+1'
+#40000
+0'
+#60000
+b10 1
+1'
+#80000
+0'
+#100000
+b11 1
+1'
+#120000
+0'
+#140000
+b100 1
+1'
+#160000
+0'
+#180000
+b101 1
+1'
+#200000
+0'
+#220000
+b110 1
+1'
+#240000
+0'
+#260000
+b111 1
+1'
+#280000
+0'
+#300000
+b1000 1
+1'
+#320000
+0'
+#340000
+b1001 1
+1'
+#360000
+0'
+#380000
+b1010 1
+1'
+#400000
+0'
+#420000
+b1011 1
+1'
+#440000
+0'
+#460000
+b1100 1
+1'
+#480000
+0'
+#500000
+b1101 1
+1'
+#520000
+0'
+#540000
+b1110 1
+1'
+#560000
+0'
+#580000
+b1111 1
+1'
+#600000
+0'
+#620000
+0*
+0/
+1'
+#640000
+0'
+#660000
+0!
+1"
+1%
+0#
+b1 .
+1'
+#680000
+0'
+#700000
+1'
+#720000
+0'
+#740000
+1'
+#760000
+0'
+#780000
+1'
+#800000
+0'
+#820000
+1'
+#840000
+0'
+#860000
+1'
+#880000
+b10 0
+0'
+1(
+#900000
+1$
+0!
+1"
+0%
+b10 .
+1'
+#920000
+0'
+#940000
+1'
+#960000
+0'
+#980000
+1%
+0!
+1"
+0$
+b1 .
+b1 0
+1'
+0(
+#1000000
+0'
+#1020000
+1'
+#1040000
+0'
+#1060000
+1'
+#1080000
+b10 0
+0'
+1(
+#1100000
+1$
+0!
+1"
+0%
+b10 .
+1'
+#1120000
+0'
+#1140000
+1'
+#1160000
+0'
+#1180000
+1#
+1!
+0"
+0$
+b0 .
+b0 0
+1'
+1&
+#1200000
+0'
+#1220000
+1'
+#1240000
+0'
+#1260000
+1'
+#1280000
+0'
+#1300000
+1'
+#1320000
+0'
+#1340000
+1'
+#1360000
+0'
+#1380000
+0!
+1"
+1%
+0#
+b1 .
+b10 0
+1'
+0&
+#1400000
+0'
+#1420000
+1$
+0!
+1"
+0%
+b10 .
+1'
+#1440000
+0'
+#1460000
+1'
+#1480000
+1*
+0'
+1)
+#1500000
+1#
+1!
+0"
+0$
+b1 0
+b0 .
+1'
+#1520000
+0'
+#1540000
+1'
+#1560000
+0'
+#1580000
+0!
+1"
+1%
+0#
+b10 0
+b1 .
+0*
+1'
+0)
+#1600000
+0'
+#1620000
+1$
+0!
+1"
+0%
+b10 .
+1'
+#1640000
+0'
+#1660000
+1'
+#1680000
+0'
